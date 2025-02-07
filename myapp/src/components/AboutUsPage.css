@@ -1,0 +1,65 @@
+.section-heading {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section-content p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.vision {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mission {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.approach {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.community {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-content p {
+  text-align: justify;
+}
+
+.section-content h3 {
+  color: #3498db;
+}
+
+.section-content a {
+  color: #27ae60;
+  text-decoration: none;
+  border-bottom: 1px dashed #27ae60;
+  transition: color 0.3s ease-in-out;
+}
+
+.section-content a:hover {
+  color: #219a52;
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    padding: 0 20px;
+  }
+}

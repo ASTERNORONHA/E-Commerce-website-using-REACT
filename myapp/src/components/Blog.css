@@ -1,0 +1,33 @@
+/* Blog.css */
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header {text-align: center;}
+
+.blog-post {
+  width: calc(50% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px;
+}
+
+.blog-post h3 {
+  color: #00796b;
+}
+
+.blog-post p {
+  margin: 10px 0;
+}
